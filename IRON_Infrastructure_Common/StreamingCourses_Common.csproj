@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\IRON_Domain.Entities\StreamingCourses_Domain.csproj" />
+    <ProjectReference Include="..\IRON_Infrastructure.Contracts\StreamingCourses_Contracts.csproj" />
+    <ProjectReference Include="..\Iron_Services.Implementations\StreamingCourses_Implementations.csproj" />
+  </ItemGroup>
+
+</Project>

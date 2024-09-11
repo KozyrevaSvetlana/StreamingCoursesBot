@@ -1,0 +1,6 @@
+@IronProgrammerBotWebApplication_HostAddress = http://localhost:5139
+
+GET {{IronProgrammerBotWebApplication_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

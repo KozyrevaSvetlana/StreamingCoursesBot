@@ -1,0 +1,217 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AboutCurator" xml:space="preserve">
+    <value>&lt;strong&gt;Куратор&lt;/strong&gt;: &lt;i&gt;{0} {1}. &lt;/i&gt;
+
+&lt;strong&gt;Разница с Мск&lt;/strong&gt;: &lt;i&gt;{2}&lt;/i&gt;
+
+&lt;strong&gt;Опыт&lt;/strong&gt;: &lt;i&gt;{3}&lt;/i&gt;
+
+&lt;strong&gt;Технологии&lt;/strong&gt;: &lt;i&gt;{4}&lt;/i&gt;
+
+&lt;strong&gt;Преимущества&lt;/strong&gt;: &lt;i&gt;{5}&lt;/i&gt;
+
+&lt;strong&gt;Хобби&lt;/strong&gt;: &lt;i&gt;{6}&lt;/i&gt;
+
+&lt;strong&gt;&lt;a href="{7}"&gt;Интервью&lt;/a&gt;&lt;/strong&gt;
+
+&lt;strong&gt;&lt;a href="{8}"&gt;Профиль GitHub&lt;/a&gt;&lt;/strong&gt;</value>
+  </data>
+  <data name="AboutStudent" xml:space="preserve">
+    <value>Студент:
+&lt;i&gt;{0} {1}. &lt;/i&gt;
+&lt;a href="{2}"&gt;Профиль GitHub&lt;/a&gt;</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="AddCuratorsTemplate" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AddCuratorsTemplate.xlsx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="AddGroupsTemplate" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AddGroupsTemplate.xlsx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="AddStudentsTemplate" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AddStudentsTemplate.xlsx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ChangeCuratorProfileTemplate" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ChangeCuratorProfileTemplate.xlsx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ChooseCurator" xml:space="preserve">
+    <value>Для просмотра подробной информации нажмите на кнопку:</value>
+  </data>
+  <data name="ChooseCuratorConfirm" xml:space="preserve">
+    <value>Вы уверены, что хотите записаться к куратору:
+{0} {1}?</value>
+  </data>
+  <data name="ConfirmCuratorSucsessText" xml:space="preserve">
+    <value>Студент {0} {1} @{2} записан к вам на курс {3}.</value>
+  </data>
+  <data name="Courses" xml:space="preserve">
+    <value>Мои курсы:</value>
+  </data>
+  <data name="CuratorsList" xml:space="preserve">
+    <value>Список кураторов</value>
+  </data>
+  <data name="CuratorSuccess" xml:space="preserve">
+    <value>Поздравляем!
+Вы записаны к куратору:
+&lt;i&gt;{0} {1}. &lt;/i&gt;</value>
+  </data>
+  <data name="DownloadNewCourse" xml:space="preserve">
+    <value>Заполните скачанный шаблон и загрузите файл</value>
+  </data>
+  <data name="DownloadTemplate" xml:space="preserve">
+    <value>Шаблон для скачивания:</value>
+  </data>
+  <data name="RemoveCuratorConfirm" xml:space="preserve">
+    <value>Вы уверены, что хотите удалить куратора {0} {1} с курса {2} ?</value>
+  </data>
+  <data name="Select" xml:space="preserve">
+    <value>Выберите действие:</value>
+  </data>
+  <data name="SelectedCourseWithCurator" xml:space="preserve">
+    <value>Курс {1}
+ Дата начала {2}
+Дата окончания {3}
+Куратор: {4} {5} {6}</value>
+  </data>
+  <data name="SelectedCourseWithoutCurator" xml:space="preserve">
+    <value>Курс &lt;i&gt;{0}&lt;/i&gt;.
+Дата начала &lt;i&gt;{1}&lt;/i&gt;. 
+Дата окончания &lt;i&gt;{2}&lt;/i&gt;.</value>
+  </data>
+  <data name="SelectGroups" xml:space="preserve">
+    <value>Выберите группы:</value>
+  </data>
+  <data name="SelectWorkloadCount" xml:space="preserve">
+    <value>Выберите кол-во доступных мест к куратору</value>
+  </data>
+  <data name="Start" xml:space="preserve">
+    <value>Здравствуйте, &lt;i&gt;{0}&lt;/i&gt;! Добро пожаловать в бота по записи на потоковые курсы онлайн школы &lt;a href="https://ironprogrammer.ru/"&gt;IRON PROGRAMMER&lt;/a&gt;. Выберите направление</value>
+  </data>
+  <data name="StudentsList" xml:space="preserve">
+    <value>Список студентов:</value>
+  </data>
+  <data name="UploadTemplateNewCourses" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UploadTemplateNewCourses.xlsx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="WrongText" xml:space="preserve">
+    <value>Произошла ошибка!</value>
+  </data>
+</root>
