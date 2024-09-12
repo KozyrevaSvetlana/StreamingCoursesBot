@@ -1,4 +1,13 @@
 # StreamingCoursesBot
+Используемые технологии:
+1. TelegramBot Api
+2. _IRON_PROGRAMMER_BOT_ConsoleApp_ использует _Polling_
+3. _IronProgrammerBotWebApplication_ использует _Webhooks_
+4. Хранение состояния пользователя реализовано через _NoSql БД FireBase_
+5. Данные: Роли, Пользователи, Курсы, Студенты, Группы и т.д. хранятся в _MSSQL БД_
+6. Разработка баз данных через _CodeFirst_ и миграций _EntityFrameworkCore_
+7. 
+
 Перед началом работы необходимо:
 1. Создать проект в [Firebases](https://console.firebase.google.com/).
 
