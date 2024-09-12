@@ -75,3 +75,5 @@
 
 **Функции пользователя**:
 Для всех остальных пользователей отображается стандартная приветственная страница с контактами школы [Iron Programmer](https://ironprogrammer.ru/) 
+
+<iframe width="560" height="315" src="https://disk.yandex.ru/i/ydb0TV_EgBU_1g" frameborder="0" allowfullscreen>Видео</iframe>
