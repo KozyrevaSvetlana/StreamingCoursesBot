@@ -1,13 +1,13 @@
 # StreamingCoursesBot
 Перед началом работы необходимо:
-1. Создать проект в [firebases]([https://pages.github.com/](https://console.firebase.google.com/)).
+1. Создать проект в [firebases](https://console.firebase.google.com/).
 
 2. прописать следующие данные в appsettings:
    2.1. Firebase - BasePath и Secret
    2.2. ConnectionStrings - строку подключения к БД
    2.3. BotConfiguration - настройки бота
 
-3. В файле добавить в коде данные администратора
+4. В файле добавить в коде данные администратора
 
 **По умолчанию есть 4 роли:**
 1. Администратор
