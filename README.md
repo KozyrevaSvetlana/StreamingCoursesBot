@@ -86,8 +86,8 @@
 Для всех остальных пользователей отображается стандартная приветственная страница с контактами школы [Iron Programmer](https://ironprogrammer.ru/) 
 
 В видеоматериалах использованы данные кураторов с их согласия:
-- Сергей Борщев @GudzON28
-- Алексей Миронов @algmironov
-- Николай Смирнов @Nikolay200
-- Кирилл Фисенко @KirillFisenko
+- Сергей Борщев [@GudzON28](https://github.com/GudzON28)
+- Алексей Миронов [@algmironov](https://github.com/algmironov)
+- Николай Смирнов [@Nikolay200](https://github.com/Nikolay200)
+- Кирилл Фисенко [@KirillFisenko](https://github.com/KirillFisenko)
 
