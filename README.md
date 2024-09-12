@@ -1,6 +1,6 @@
 # StreamingCoursesBot
 Перед началом работы необходимо:
-1. Создать проект в [https://console.firebase.google.com/](https://console.firebase.google.com/u/0/
+1. Создать проект в [firebases]([https://pages.github.com/](https://console.firebase.google.com/)).
 
 2. прописать следующие данные в appsettings:
    2.1. Firebase - BasePath и Secret
